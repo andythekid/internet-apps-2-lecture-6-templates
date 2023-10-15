@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title> Распродажник - {{ title }} </title>
+</head>
+<body>
+
+<div class="container">
+	<div class="item header">
+        <h1>Header</h1>
+    </div>
+	<div class="item sidebar">
+        <ul>
+            {% for key, value in menu.items %}
+	        <li> <a href="{{ value }}"> {{ key }} </a> </li>
+            {% empty %}
+            <li>Пустой список</li>
+            {% endfor %}
+        </ul>
+    </div>
+	<div class="item content">
+        {% block content %}
+        {% endblock %}
+    </div>
+</div>
+
+</body>
+</html>
