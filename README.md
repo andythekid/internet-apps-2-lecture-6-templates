@@ -5,13 +5,13 @@
 
 Клонируем репозиторий
 ```
-git clone https://git.voklaf.ru/promtechdesign/internet-apps-2-semestr/lecture-6-templates.git
+git clone https://<username>:<personal_token>@git.voklaf.ru/promtechdesign/internet-apps-2-semestr/lecture-6-templates.git
 cd lecture-6-templates
 ```
 
 Создаем виртуальное окружение:
 ```
-pip -m venv venv
+python -m venv venv
 ```
 Запускаем его н linux и Mac OS:
 ```
