@@ -5,7 +5,8 @@
 
 Клонируем репозиторий
 ```
-https://git.voklaf.ru/promtechdesign/internet-apps-2-semestr/lecture-6-templates.git
+git clone https://git.voklaf.ru/promtechdesign/internet-apps-2-semestr/lecture-6-templates.git
+cd lecture-6-templates
 ```
 
 Создаем виртуальное окружение:
